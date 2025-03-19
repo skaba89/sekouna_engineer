@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Sekouna Kaba</title>
+    <title>Témoignages - Sekouna Kaba</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
 
 <header>
-    <h1>Portfolio - Sekouna Kaba</h1>
+    <h1>Témoignages</h1>
     <nav>
         <ul>
             <li><a href="index.html">Accueil</a></li>
@@ -25,10 +25,14 @@
 </header>
 
 <div class="container">
-    <h2>Bienvenue sur mon Portfolio</h2>
-    <p>Je suis Sekouna Kaba, Senior Data Engineer avec plus de 10 ans d'expérience.</p>
-    <p>Expert en Big Data, Cloud, ETL et Architecture Data.</p>
-    <button id="toggleTheme">🌙 Mode Sombre</button>
+    <h2>Avis et Témoignages</h2>
+    <div class="slider">
+        <div class="slide active">"Sekouna est un expert en Data Engineering, il a transformé notre infrastructure avec des pipelines optimisés !" - <strong>Client A</strong></div>
+        <div class="slide">"Très professionnel, il a mis en place un DataLake sur AWS qui nous a fait gagner en efficacité." - <strong>Collègue B</strong></div>
+        <div class="slide">"Un consultant de haut niveau ! Excellente maîtrise de Snowflake et DBT." - <strong>Manager C</strong></div>
+    </div>
+    <button id="prevSlide">⬅️</button>
+    <button id="nextSlide">➡️</button>
 </div>
 
 <footer>
